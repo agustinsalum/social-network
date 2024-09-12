@@ -120,6 +120,9 @@ This project is organized into several key components. Below is an overview of t
     ```
 
     Generate a secret key: [Djecrety](https://djecrety.ir/)
+    
+    Generate OpenWeather API Key: [OpenWeather](https://openweathermap.org/)
+
 
 7. Perform migrations:
 
