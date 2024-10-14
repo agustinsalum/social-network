@@ -78,6 +78,15 @@ MIDDLEWARE += ALLAUTH_MIDDLEWARE
 
 ROOT_URLCONF = 'social.urls'
 
+# Remove the error {"detail": "Authentication credentials were not provided."}
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    'PAGE_SIZE': 10
+}
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

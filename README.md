@@ -176,6 +176,8 @@ Joe can see through the system that Rachel has taken 3 math lessons and 2 Spanis
 
 This API provides the necessary endpoints to manage user profiles, friendships, and lessons within the social network.
 
+![Get Users Endpoint](documentation/users.png)
+
 ## Free endpoints
 
 I have created three endpoints that provide information about cats, dogs, and the weather for any city you specify. The details are as follows:
